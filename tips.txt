@@ -1,0 +1,4 @@
+When in the url bar, after typing some letters
+	Alt + Enter opens the highlighted URL in a new tab.
+	Shift + Enter opens the highlighted URL in the current tab.
+	Cursor Right(right kb button) copies the highlighted URL to the location bar in case you want to edit it. 
