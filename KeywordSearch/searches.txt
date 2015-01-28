@@ -1,0 +1,6 @@
+Google maps: http://maps.google.ca/maps?f=q&hl=en&iwloc=addr&output=classic&dg=opt&q=%s
+Ebay: http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
+Youtube: https://www.youtube.com/results?search_query=%s
+Amazon.ca: http://www.amazon.ca/s/ref=nb_sb_noss/190-5064188-2257405?url=search-alias%3Daps&field-keywords=%s
+Ncix: http://search.ncix.com/search/?qcatid=0&q=%s
+Shopbot: http://www.shopbot.ca/m/?m=%s
