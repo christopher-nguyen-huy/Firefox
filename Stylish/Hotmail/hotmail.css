@@ -1,0 +1,8 @@
+@-moz-document domain('mail.live.com'){
+	#RightRailContainer{
+		width: 0px !important;
+	}
+	.WithRightRail {
+		right: 0px !important;
+	}
+}
