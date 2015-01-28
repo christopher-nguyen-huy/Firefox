@@ -1,0 +1,24 @@
+Hide one click search button:
+browser.search.showOneOffButtons -> false
+
+Put cache on RAM:
+browser.cache.memory.enable -> true
+browser.cache.memory.max_entry_size -> -1
+browser.cache.disk.enable -> false
+browser.cache.disk.parent_directory -> /tmp/firefox
+
+Reduce page loading delay:
+New > int: nglayout.initialpaint.delay -> 0
+New > bool: content.interrupt.parsing -> true
+New > bool: content.notify.ontimer -> true
+New > int: content.max.tokenizing.time -> 100000
+New > int: content.notify.backoffcount -> -1
+New > int: content.notify.interval -> 100000
+New > int: content.switch.threshold -> 2000000
+
+Disable Thumbnails in about:newtab
+new > bool: browser.pagethumbnails.capturing_disabled -> true
+new > bool : pageThumbs.enabled -> false 
+You may need to delete the thumbnails folder in the Firefox profile folder to remove already stored icons.
+You can use this button to go to the Firefox profile folder:
+	Help > Troubleshooting Information > Profile Directory: Show Folder (Open Directory) 
