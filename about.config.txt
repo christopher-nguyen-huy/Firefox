@@ -8,13 +8,13 @@ browser.cache.disk.enable -> false
 browser.cache.disk.parent_directory -> /tmp/firefox
 
 Reduce page loading delay:
-New > int: nglayout.initialpaint.delay -> 0
-New > bool: content.interrupt.parsing -> true
-New > bool: content.notify.ontimer -> true
-New > int: content.max.tokenizing.time -> 100000
-New > int: content.notify.backoffcount -> -1
-New > int: content.notify.interval -> 100000
-New > int: content.switch.threshold -> 2000000
+new > int: nglayout.initialpaint.delay -> 0
+new > bool: content.interrupt.parsing -> true
+new > bool: content.notify.ontimer -> true
+new > int: content.max.tokenizing.time -> 100000
+new > int: content.notify.backoffcount -> -1
+new > int: content.notify.interval -> 100000
+new > int: content.switch.threshold -> 2000000
 
 Disable Thumbnails in about:newtab
 new > bool: browser.pagethumbnails.capturing_disabled -> true
