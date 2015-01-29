@@ -1,0 +1,10 @@
+Adblock+
+Webmail Ad blocker
+Stylish
+GreaseMonkey
+Youtube Video Replay
+Youtube High Definition
+
+[Firefox]
+Classic theme Restorer
+Session Manager
