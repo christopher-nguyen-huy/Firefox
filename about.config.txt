@@ -22,3 +22,16 @@ new > bool : pageThumbs.enabled -> false
 You may need to delete the thumbnails folder in the Firefox profile folder to remove already stored icons.
 You can use this button to go to the Firefox profile folder:
 	Help > Troubleshooting Information > Profile Directory: Show Folder (Open Directory) 
+	
+Remove URL bar greying after domain:
+browser.urlbar.formatting.enabled -> false
+
+Stop URL trimming
+browser.urlbar.trimURLs -> false
+
+Disable Ctrl-Tab previews:
+browser.ctrlTab.previews -> false
+
+Addons:
+Disable compatibility checking
+extensions.checkCompatibility -> false
