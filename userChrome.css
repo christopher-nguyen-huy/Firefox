@@ -1,0 +1,47 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* To use, create Chrome folder in FF profile and drop this file in */
+
+/* Legend:
+	FF:	Firefox
+	PM: Palemoon
+	CB: Cyberfox */
+	
+/* PM titlebar mods */
+#main-window::after {
+ 	color: #EEE !important;
+ 	font-weight: normal !important;
+ 	text-shadow:none !important;
+}
+
+/* dark urlbar */
+#urlbar{
+	background-color: #222 !important;
+	color: #DDD !important;	
+}
+
+/* dark searchbox */
+#searchbar .searchbar-textbox{
+	background-color: #222 !important;
+	color: #DDD !important;	
+}
+
+/* dark about:config, not sure if working */
+tree#configTree, tree#tabList {
+    min-height: 600px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feComponentTransfer><feFuncR type='table' tableValues='1 0'/><feFuncG type='table' tableValues='1 0'/><feFuncB type='table' tableValues='1 0'/></feComponentTransfer></filter></svg>#invert");
+}
+
+/* hide magnifier glass not working */
+.search-go-button-stack {
+	display: none !important;
+}
+#go-button-stack, .search-go-button-stack {
+	display: none !important;
+}
+
+/* lock searchbar size */
+#search-container {
+	max-width:200px! important; 
+	min-width:200px! important;
+}
