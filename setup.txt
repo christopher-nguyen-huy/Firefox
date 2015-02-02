@@ -1,0 +1,3 @@
+Change page setup
+	Disable print backgrounds
+	Set headers and footers blank
