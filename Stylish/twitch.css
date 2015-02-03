@@ -1,0 +1,4 @@
+/* hide login sign when not logged in */
+#new-user-prompt{
+    display:none !important;
+}

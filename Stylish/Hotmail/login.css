@@ -1,0 +1,24 @@
+@-moz-document domain("login.live.com") {
+	body{
+		background:#111 !important;
+		color:#CCC !important;
+	}
+	#footerTD{
+		background:#111 !important;
+		color:#CCC !important;
+	}
+	#brandModeTD{
+		width: 0px !important;
+		display: none !important;
+	}
+	input{
+		background:#111 !important;
+		color:#CCC !important;
+	}
+	label{
+		color:#CCC !important;
+	}
+	.center{
+		margin-left:0px !important;
+	}
+}
