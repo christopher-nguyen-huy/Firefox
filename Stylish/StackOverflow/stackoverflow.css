@@ -217,7 +217,7 @@ code {
 #content, #header, #answers, #answers-header, .answer{
 	width:100% !important;
 }
-#content, .votecell, .comments{
+#content, .votecell, .comments,#header{
 	padding:0px !important;
 }
 body,html{
