@@ -6,7 +6,7 @@ Bookmarks
 	Reimport all keyword searches
 		Create a Search folder if one did not come prepackaged
 Main interface
-	Remove all the buttons except
+	Remove all the buttons except:
 		Menu
 		Refresh
 		Home
