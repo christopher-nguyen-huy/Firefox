@@ -1,15 +1,15 @@
-Google maps	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
-Ebay	http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
-Youtube	https://www.youtube.com/results?search_query=%s
-Amazon.ca	http://www.amazon.ca/s/field-keywords=%s
-Ncix	http://search.ncix.com/search/?q=%s
-Shopbot	http://www.shopbot.ca/m/?m=%s
-Kijiji	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
-Myanimelist	http://myanimelist.net/anime.php?q=%s
-Nyaa	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
-Sukebei.nyaa	http://sukebei.nyaa.se/?page=search&sort=2&term=%s
-Wikipedia	http://www.wikipedia.org/search-redirect.php?search=%s&language=en
-Wolframalpha	http://www.wolframalpha.com/input/?i=%s
-Canadiantire	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
-Emuparadise	http://www.emuparadise.me/roms/search.php?query=%s&section=all
-Gsmarena	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
+Google maps	m	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
+Ebay	e	http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
+Youtube	u	https://www.youtube.com/results?search_query=%s
+Amazon.ca	a	http://www.amazon.ca/s/field-keywords=%s
+Ncix	nx	http://search.ncix.com/search/?q=%s
+Shopbot	shobot	http://www.shopbot.ca/m/?m=%s
+Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
+Myanimelist	mal	http://myanimelist.net/anime.php?q=%s
+Nyaa	nya	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
+Sukebei.nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s
+Wikipedia	w	http://www.wikipedia.org/search-redirect.php?search=%s&language=en
+Wolframalpha	wa	http://www.wolframalpha.com/input/?i=%s
+Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
+Emuparadise	emu	http://www.emuparadise.me/roms/search.php?query=%s&section=all
+Gsmarena	gsm	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
