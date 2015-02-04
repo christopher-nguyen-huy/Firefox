@@ -128,36 +128,37 @@ geo.enabled -> false
 	Everything that was supposed to return a .ca version in google returns the .com version
 
 Turn off file virus-scan after download:
-browser.download.manager.scanWhenDone => false
+browser.download.manager.scanWhenDone -> false
 
 Override the useragent to most common useragent (not needed with Blender/UA Switcher):
-New > string: general.useragent.override =>
+New > string: general.useragent.override ->
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
 
-Disable prefetching (preloading of pages), which lowers RAM usage:
-network.prefetch-next => false 
+Disable prefetching:
+	(preloading of pages), which lowers RAM usage
+network.prefetch-next -> false 
 
 Remove submenu slide delay:
-New > integer: ui.submenuDelay => 0
+New > integer: ui.submenuDelay -> 0
 
 Set a "do-not-track" header to tell sites not to track browsing habits:
-privacy.donottrackheader.enabled => true
+privacy.donottrackheader.enabled -> true
 
 Disable Google Blacklists:
-browser.safebrowsing.enabled => false
-browser.safebrowsing.maleware.enabled => false
+browser.safebrowsing.enabled -> false
+browser.safebrowsing.maleware.enabled -> false
 
 Disable pings:
 	why?
-browser.send_pings => false
-browser.send_pings.require_same_host => true
+browser.send_pings -> false
+browser.send_pings.require_same_host -> true
 
 Disable keywords:
 	why?
-keyword.enabled => false
+keyword.enabled -> false
 
 Disable certificates:
-browser.ssl_override_behavior => 2
+browser.ssl_override_behavior -> 2
 
 Disable DNS proxy bypass:
-network.proxy.socks_remote_dns => true
+network.proxy.socks_remote_dns -> true
