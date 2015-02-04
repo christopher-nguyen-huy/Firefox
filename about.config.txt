@@ -2,12 +2,15 @@ Hide one click search button:
 browser.search.showOneOffButtons -> false
 
 Put cache on RAM:
+browser.cache.disk.enable -> false
 browser.cache.memory.enable -> true
 browser.cache.memory.max_entry_size -> -1
-browser.cache.disk.enable -> false
 browser.cache.disk.parent_directory -> /tmp/firefox
+	Not sure about this last one here
+	doesn't seem like this works on windows
 
 Reduce page loading delay:
+According to logicalincrements.com/firefox:
 new > int: nglayout.initialpaint.delay -> 0
 new > bool: content.interrupt.parsing -> true
 new > bool: content.notify.ontimer -> true
@@ -15,19 +18,30 @@ new > int: content.max.tokenizing.time -> 100000
 new > int: content.notify.backoffcount -> -1
 new > int: content.notify.interval -> 100000
 new > int: content.switch.threshold -> 2000000
+According to me(in the past lol):
+Load large pages faster:
+new > int: content.notify.interval -> 500000
+	(0.5s)
+new > bool: content.notify.ontimer -> True
+Ignore interrupts:
+new > int: content.switch.threshold  -> 250000 
+	(0.25s)
+new > bool: content.interrupt.parsing -> False
+
 
 Disable Thumbnails in about:newtab
 new > bool: browser.pagethumbnails.capturing_disabled -> true
 new > bool : pageThumbs.enabled -> false 
-You may need to delete the thumbnails folder in the Firefox profile folder to remove already stored icons.
-You can use this button to go to the Firefox profile folder:
-	Help > Troubleshooting Information > Profile Directory: Show Folder (Open Directory) 
+	You may need to delete the thumbnails folder in the Firefox profile folder to remove already stored icons.
+	You can use this button to go to the Firefox profile folder:
+		Help > Troubleshooting Information > Profile Directory: Show Folder (Open Directory) 
 	
 Remove URL bar greying after domain:
 browser.urlbar.formatting.enabled -> false
 
-Stop URL trimming
+Stop URL trimming:
 browser.urlbar.trimURLs -> false
+	Displays http://
 
 Disable Ctrl-Tab previews:
 browser.ctrlTab.previews -> false
@@ -35,3 +49,77 @@ browser.ctrlTab.previews -> false
 Addons:
 Disable compatibility checking
 extensions.checkCompatibility -> false
+
+AltClick-Save:
+browser.altClickSave -> true
+
+Imageview Background color:
+browser.display.standalone_images.background_color -> #000000 
+	(for black)
+browser.display.standalone_images.background_color -> #FFFFFF 
+	(for white)
+	
+Disable ipv6:
+network.dns.disableIPv6 -> true
+
+DNS optimisation:
+network.dnsCacheEntries -> 512
+network.dnsCacheExpiration -> 3600
+
+Hover over link to get url delay
+	Not sure about this one
+browser.overlink-delay -> 40
+
+autoclear downloads:
+browser.download.manager.retention -> 0 
+	2=keep forever
+	1=clear on firefox exit
+	0=clear on download complete
+	
+Disable addon install timer:
+security.dialog_enable_delay -> 0
+
+Connections Boosting:
+network.http.max-connections  -> 48 or 96
+network.http.max-persistent-connections-per-server -> 12
+network.http.max-connections-per-server -> 24
+
+tab minimal shrink size width:
+browser.tabs.tabMinWidth -> 75
+	(pixels)
+	
+Disable browser pdf:
+pdfjs.disabled -> true
+
+Tab open at the end:
+browser.tabs.insertRelatedAfterCurrent -> false
+
+Disable tab animation
+browser.tabs.animate -> false
+
+Smart address bar suggestion number:
+browser.urlbar.maxRichResults -> any number
+	-1 to disable
+
+Disable tab preview:
+browser.allTabs.previews -> false
+browser.ctrlTab.previews -> false
+
+New blank tab:
+browser.newtab.url -> about:blank
+
+Pipelining:
+	Everything in this section might not work anymore
+new > bool: network.http.pipelining.firstrequest -> true
+network.http.pipelining -> true
+network.http.pipelining.ssl -> true
+network.http.proxy.pipelining  -> true
+network.http.pipelining.maxrequests -> 20-40
+	Who knows what's going on here
+	
+Disable Geolocation:
+
+	Might not be a good idea
+		Everything that was supposed to return a .ca version in google returns the .com version
+
+	
