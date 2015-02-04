@@ -1,3 +1,22 @@
+Install Flash
+	at least before addons
+		because ABP screws up flash install
+Bookmarks
+	Clear every bookmark folder
+	Reimport all keyword searches
+		Create a Search folder if one did not come prepackaged
+Main interface
+	Remove all the buttons except
+		Menu
+		Refresh
+		Home
+		Back
+		Foward
+	Make interface small
+
 Change page setup
 	Disable print backgrounds
 	Set headers and footers blank
+
+Install Addons
+	
