@@ -32,12 +32,9 @@ tree#configTree, tree#tabList {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feComponentTransfer><feFuncR type='table' tableValues='1 0'/><feFuncG type='table' tableValues='1 0'/><feFuncB type='table' tableValues='1 0'/></feComponentTransfer></filter></svg>#invert");
 }
 
-/* hide magnifier glass not working */
-.search-go-button-stack {
-	display: none !important;
-}
-#go-button-stack, .search-go-button-stack {
-	display: none !important;
+/* Remove SearchBar Magnifying Glass */
+.search-go-button {
+	display:none !important;
 }
 
 /* lock searchbar size */
