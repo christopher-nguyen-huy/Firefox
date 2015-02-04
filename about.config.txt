@@ -83,6 +83,11 @@ Connections Boosting:
 network.http.max-connections  -> 48 or 96
 network.http.max-persistent-connections-per-server -> 12
 network.http.max-connections-per-server -> 24
+Logicalincrements version:
+network.http.pipelining.maxrequests => 64
+network.http.max-connections => 512
+network.http.max-persistent-connections-per-server => 32
+
 
 tab minimal shrink size width:
 browser.tabs.tabMinWidth -> 75
@@ -118,8 +123,41 @@ network.http.pipelining.maxrequests -> 20-40
 	Who knows what's going on here
 	
 Disable Geolocation:
-
+geo.enabled -> false
 	Might not be a good idea
-		Everything that was supposed to return a .ca version in google returns the .com version
+	Everything that was supposed to return a .ca version in google returns the .com version
 
-	
+Turn off file virus-scan after download:
+browser.download.manager.scanWhenDone => false
+
+Override the useragent to most common useragent (not needed with Blender/UA Switcher):
+New > string: general.useragent.override =>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+
+Disable prefetching (preloading of pages), which lowers RAM usage:
+network.prefetch-next => false 
+
+Remove submenu slide delay:
+New > integer: ui.submenuDelay => 0
+
+Set a "do-not-track" header to tell sites not to track browsing habits:
+privacy.donottrackheader.enabled => true
+
+Disable Google Blacklists:
+browser.safebrowsing.enabled => false
+browser.safebrowsing.maleware.enabled => false
+
+Disable pings:
+	why?
+browser.send_pings => false
+browser.send_pings.require_same_host => true
+
+Disable keywords:
+	why?
+keyword.enabled => false
+
+Disable certificates:
+browser.ssl_override_behavior => 2
+
+Disable DNS proxy bypass:
+network.proxy.socks_remote_dns => true
