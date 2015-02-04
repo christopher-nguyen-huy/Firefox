@@ -1,0 +1,28 @@
+.tlistmn{
+	color:#00BFFF !important;
+}
+.tlistln{
+	color:#FF8080 !important;
+}
+.tlistsn{
+color:#22DD22!important;
+}
+a{
+	color:#808080 !important;
+}
+.viewdescription{
+	background:#222 !important;
+	color:#BBB
+}
+.viewfiletable{
+	background:#222 !important;
+}
+#topbar{
+	background:#000 !important;
+}
+.container{
+	background:#111 !important;
+}
+.chead>span,.chead>a>span{
+	color:#aaa !important;
+}
