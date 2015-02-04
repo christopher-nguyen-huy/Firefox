@@ -1,4 +1,4 @@
-Google maps	m	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
+Google Maps	m	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
 Ebay	e	http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
 Youtube	u	https://www.youtube.com/results?search_query=%s
 Amazon.ca	a	http://www.amazon.ca/s/field-keywords=%s
@@ -7,7 +7,7 @@ Shopbot	shobot	http://www.shopbot.ca/m/?m=%s
 Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
 Myanimelist	mal	http://myanimelist.net/anime.php?q=%s
 Nyaa	nya	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
-Sukebei.nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s
+Sukebei Nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s
 Wikipedia	w	http://www.wikipedia.org/search-redirect.php?search=%s&language=en
 Wolframalpha	wa	http://www.wolframalpha.com/input/?i=%s
 Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
