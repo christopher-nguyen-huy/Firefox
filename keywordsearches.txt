@@ -7,7 +7,7 @@ Shopbot	shobot	http://www.shopbot.ca/m/?m=%s
 Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
 Myanimelist	mal	http://myanimelist.net/anime.php?q=%s
 Nyaa	nya	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
-Sukebei Nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s
+Sukebei Nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s&cats=7_25
 Wikipedia	w	http://www.wikipedia.org/search-redirect.php?search=%s&language=en
 Wolframalpha	wa	http://www.wolframalpha.com/input/?i=%s
 Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
