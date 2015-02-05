@@ -162,3 +162,5 @@ browser.ssl_override_behavior -> 2
 
 Disable DNS proxy bypass:
 network.proxy.socks_remote_dns -> true
+
+Hide favicons:
