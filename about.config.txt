@@ -164,3 +164,6 @@ Disable DNS proxy bypass:
 network.proxy.socks_remote_dns -> true
 
 Hide favicons:
+	(those little icons beside bookmarks and in url bar)
+browser.chrome.favicons -> false
+browser.chrome.site_icons -> false
