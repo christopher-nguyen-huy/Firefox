@@ -1,0 +1,771 @@
+@-moz-document domain('fakku.net'), url-prefix('http://www.fakku.net/') {
+/* Hotfixes 
+------------ */
+/* Core
+-------- */
+body {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+}
+#container {  
+    background:#101010 !important;
+    border-width:0 1px !important;
+    border-style:solid !important;
+    border-color:#9D0A0A !important;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.75) !important;
+}
+a {
+    color:#1180CC !important;
+}
+a:hover {
+    color:#7FCCFF !important;
+}
+a, a:hover {
+    text-decoration:none !important;
+}
+div, td, tr, table, dl, a, a:hover {
+    border-radius:0 !important;
+}
+input {
+    color:#C0C0C0 !important;
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+img {
+    max-width:100% !important;
+}
+    /* Buttons */
+
+.button {
+    color:#FFFFFF !important;
+    background:#9D0A0A !important;
+    border:2px solid #660707 !important;
+}
+.button:hover {
+    color:#DDDDDD !important;
+    background:#7F0808 !important;
+    border:2px solid #660707 !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+
+.button.green {
+    background:#009900 !important;
+    border:2px solid #006600 !important;
+}
+.button.green:hover {
+    background:#007F00 !important;
+}
+#error {
+    background-color:#080808 !important;
+    border:1px solid #303030 !important;
+}
+/* Transitions
+--------------- */
+div, div:hover, input, input:hover, input:focus, textarea, textarea:hover, dl, dl:hover, 
+img, img:hover, a, a:hover, tr:hover, td:hover, thead, thead:hover, img, img:hover {
+    -webkit-transition: all 175ms ease !important;
+    -moz-transition: all 175ms ease!important;
+    -ms-transition: all 175ms ease !important;
+    -o-transition: all 175ms ease!important;
+    transition: all 175ms ease !important;
+}
+/* Header
+---------- */
+#header-left {
+    background:#101010 !important;
+}
+.search-input {
+    background:transparent !important;
+    border:0 none transparent !important;
+}
+.search-input input[type="text"], .search-input input[type="submit"] {
+    background:#080808 !important;
+}
+.search-input input[type="text"] {
+    border:1px solid #303030 !important;
+}
+.search-input input[type="submit"] {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-width:1px 1px 1px 0 !important;
+    border-style:solid !important;
+    border-color:#303030 !important;
+}
+.search-input input[type="text"]:hover {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-color:#9D0A0A !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+.search-input input[type="text"]:focus, .search-input input[type="submit"]:hover {
+    box-shadow:0 0 0 0 transparent !important;
+    color:#000 !important;
+    background:#FFFFFF !important;
+    border-color:#FFFFFF !important;
+}
+.search-input input[type="text"]:focus {
+    box-shadow:0 0 2px 0 rgba(0,0,0,0.75) inset !important;
+}
+.autocomplete {
+    border-color:#FFFFFF !important;
+}
+.autocomplete div {
+    color:#000 !important;
+}
+.autocomplete div:hover {
+    background:#CCCCCC !important;
+}
+#header-right {
+    background:#101010 !important;
+}
+#header-right a {
+    color:#FFA5A5 !important;
+}
+#header-right a:hover {
+    color:#FFE5E5 !important;
+}
+a#header-account {
+    color:#1180CC !important;
+}
+a#header-account:hover {
+    color:#7FCCFF !important;
+    text-decoration:none !important;
+}
+#header-notifications {
+    border-radius:0 !important;
+}
+#header-notifications:hover {
+    background:transparent !important;
+}
+/* Navigation
+-------------- */
+nav {
+    border-width:2px 0 !important;
+    border-style:solid !important;
+    border-color:#660707 !important;
+}
+nav a, nav a:hover {
+    -webkit-transition: all 0ms ease !important;
+    -moz-transition: all 0ms ease!important;
+    -ms-transition: all 0ms ease !important;
+    -o-transition: all 0ms ease!important;
+    transition: all 0ms ease !important;
+}
+nav .menu > li {
+    border-color:#660707 !important;
+}
+nav .menu li a {
+    color:#FFFFFF !important;
+    
+}
+nav .drop li a {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+}
+nav .drop a:hover {
+    color:#FFFFFF !important;
+}
+.sub-navigation input[type="text"], .wide-search input[type="text"] {
+    color:#AAAAAA;
+    border:1px solid #303030 !important;
+}
+.sub-navigation input[type="text"]:hover, .wide-search input[type="text"]:hover {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-color:#9D0A0A !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+.sub-navigation input[type="text"]:focus, .wide-search input[type="text"]:focus {
+    color:#000 !important;
+    background:#FFFFFF !important;
+    border-color:#FFFFFF !important;
+    box-shadow:0 0 2px 0 rgba(0,0,0,0.75) inset !important;
+}
+.wide-search input[type="text"] {
+    color:#CCCCCC !important;
+}
+.sub-navigation input[type="submit"] {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-width:1px 1px 1px 0 !important;
+    border-style:solid !important;
+    border-color:#303030 !important;
+}
+.sub-navigation input[type="submit"]:hover {
+    color:#000 !important;
+    background:#FFFFFF !important;
+    border-color:#FFFFFF !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+    /* Translator Search */
+.attribute-list .attribute-row {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+    border-radius:0 !important;
+}
+.attribute-list .attribute-row:hover {
+    background:#101010 !important;
+    border:1px solid #9D0A0A !important;
+}
+    /* Forum Search */
+.search-form {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+.search-form .search-form-row input[type="text"] {
+    color:#AAAAAA !important;
+}
+.search-form .search-form-row input[type="text"]:hover {
+    color:#CCCCCC !important;
+    box-shadow:0 0 0 0 transparent !important;
+    border-color:#9D0A0A !important;
+}
+.search-form .search-form-row input[type="text"]:focus {
+    color:#000000 !important;
+    background:#FFFFFF !important;
+    border-color:#FFFFFF !important;
+    box-shadow:0 0 2px 0 rgba(0,0,0,0.75) inset !important;
+}
+.search-form .button.green {
+    color:#AAAAAA !important;
+    background:transparent !important;
+    border:1px solid #303030 !important;
+}
+.search-form .button.green:hover {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-color:#9D0A0A !important;
+}
+.search-form .button {
+    color:#000 !important;
+}
+.message-simple {
+    padding:5px !important;
+    background:#101010 !important;
+    border:1px solid #303030 !important;
+}
+.search-form .search-results-count {
+    float:right !important;
+    position:relative !important;
+    top:0 !important;
+    right:0 !important;
+}
+/* Content
+----------- */
+    /* General */
+#content {
+    background:#101010 !important;
+    width:100% !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+.front-page #content {
+    width:700px !important;
+}
+.news-time{
+    color:#B0B0B0 !important;
+}
+.news-row{
+     background:#080808 !important;
+     border:1px solid #303030 !important;
+}
+.entry {
+    background:#080808 !important;
+    color:#B0B0B0 !important;
+    border:1px solid #303030 !important;
+}
+.content.view #left, .content.view #right {
+    background:#101010 !important;
+    border-color:#303030 !important;
+}
+.content-navigation li a {
+    color:#FFA5A5 !important;
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+.content-navigation li a:hover {
+    color:#FFE5E5 !important;
+    background:#101010 !important;
+}
+.content-navigation .selected a {
+    background:#101010 !important;
+}
+.content.view #right {
+    width:734px !important;
+}
+.content.view .content-name h1 {
+    color:#FFA5A5 !important;
+}
+.content.view .images {
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+.content.view .images img {
+    opacity:0.8 !important;
+}
+.content.view .images img:hover {
+    opacity:1 !important;
+}
+    /* Comments */
+.comment-wrap {
+    width:929px !important;
+}
+.comment-reply .comment-wrap {
+    width:901px !important;
+}
+.post-signature {
+    color:#CCCCCC !important;
+    background:#080808 !important;
+}
+.post-comment-text{
+    width:960px !important;
+    color:#CCCCCC !important;
+    background-color:#080808 !important;
+    border:1px solid #303030 !important;
+    box-shadow:0 0 3px 0 rgba(0,0,0,1) inset !important;
+}/*
+.post-comment-text:hover {
+    background:#101010 !important;
+    border:1px solid #9D0A0A !important;
+}
+.post-comment-text:focus {
+    color:#000000 !important;
+    background:#FFFFFF !important;
+    border-color:#FFFFFF !important;
+}*/
+.comment-top {
+    background:#101010 !important;
+    border-color:#303030 !important;
+}
+.comment-wrap .left {
+    color:#AAAAAA !important;
+}
+.comment-wrap .left a {
+    color:#FFA5A5 !important;
+}
+.comment-wrap .left a:hover {
+    color:#FFE5E5 !important;
+}
+.comment-wrap .right a:hover {
+    text-decoration:none !important;
+}
+.comment-row .rank {
+    background:transparent !important;
+}
+
+
+.arrow.like, .arrow.dislike {
+    
+    border-color:#303030 !important;
+    border-radius:0 !important;
+}
+.arrow.like:hover, .arrow.dislike:hover {
+    box-shadow:0 0 0 0 transparent !important;
+}
+    /* Tag/Category Information */
+dl { /* Note: Text content for the dl fails to display if a border is added to the element */
+    background-color:#101010 !important;
+}
+    /* Front & Doujin/Manga Listing Content Rows */
+.content-row {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+.content-row:hover {
+    border:1px solid #9D0A0A !important;
+    background:#101010 !important;
+}
+.content-row img {
+    opacity:0.8 !important;
+    box-shadow:0 0 2px 0 rgba(0,0,0,0.25) !important;
+}
+.content-row img:hover {
+    opacity:1 !important;
+}
+.content-row h2 a.content-title {
+    color:#FFA5A5 !important;
+    text-decoration:underline !important;
+}
+.content-row h2 a.content-time {
+    color:#C0C0C0 !important;
+}
+.content-row:hover h2 a.content-time {
+    color:#AAAAAA !important;
+}
+.content-row:hover h2 a.content-time:hover {
+    color:#FFE5E5 !important;
+}
+.content-row h2 a.content-title:hover {
+    color:#FFE5E5 !important;
+}
+.english a {
+    color:#009F07 !important;
+}
+.english a:hover {
+    color:#00FF08 !important;
+}
+.content-category {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+    border-radius:0 !important;
+}
+.content-category ul li .content-title {
+    color:#1180CC !important;
+}
+.content-category ul li .content-title:hover {
+    color:#7FCCFF !important;
+}
+.content-category .content-meta {
+    color:#AAAAAA !important;
+}
+.load-more {
+    color:#FFA5A5 !important;
+    background:#080808 !important;
+    border-color:#303030 !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+.load-more:hover {
+    color:#FFE5E5 !important;
+    text-decoration:none !important;
+    background:#101010 !important;
+    border-color:#9D0A0A !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+    /* Tags listing + Doujin/Manga Main Listing */
+.browse-header { /* Tag selection */
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+#tag-list img, .content-category ul li a.cover-sample img {
+    opacity:0.8 !important;
+}
+#tag-list li:hover img, .content-category ul li a.cover-sample:hover img{
+    opacity:1 !important;
+}
+#tag-list li .border, .cover-sample .border {
+    border-color:rgba(48,48,48,0.9) !important;
+}
+#tag-list span, .content-category ul li .manga-comments, .result .manga-comments {
+    color:#CCCCCC !important;
+    background:#303030 !important;
+}
+.content-category .content-meta .content-title {
+    color:#FFA5A5 !important;
+}
+.content-category .content-meta .content-title:hover {
+    color:#FFE5E5 !important;
+}
+    /* User Profiles */
+.content-left-navigation .right-content {
+    background:#101010 !important;
+    border:1px solid #303030 !important;
+}
+.content-left-navigation .left-navigation a {
+    color:#AAAAAA !important;
+    background:#080808 !important;
+    border-width:0 0 1px 1px !important;
+    border-style:solid !important;
+    border-color:#303030 !important;
+}
+.content-left-navigation .left-navigation a:hover {
+    color:#FFE5E5 !important;
+    background:#101010 !important;
+}
+.content-left-navigation .left-navigation .selected a {
+    color:#FFA5A5 !important;
+    background:#101010 !important;
+    border-width:0 0 1px 1px !important;
+    border-style:solid !important;
+    border-color:#303030 !important;
+}
+.content-left-navigation .left-navigation li:first-child a {
+    border-width:1px 0 1px 1px !important;
+}
+.content-left-navigation .left-navigation .selected a:hover {
+    color:#FFE5E5 !important;
+}
+.content-left-navigation .right-content h1 {
+    color:#FFA5A5 !important;
+}
+.content-left-navigation.profile-posts .right-content.posts, .content-left-navigation.profile-achievements .right-content {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+        /* Achievements */
+.profile-row, .achievement-row {
+    background:#101010 !important;
+    border:0 none transparent !important;
+}
+.achievement-row:last-child {
+    margin-bottom:0 !important;
+}
+        /* Favorites */
+.profile-favorites .favorite img {
+    opacity:0.8 !important;
+}
+.profile-favorites .favorite img:hover {
+    opacity:1 !important;
+}
+        /* Posts */
+.profile-posts .post-message-container {
+    border-width:1px 0 0 !important;
+}
+.profile-posts .post-row-top {
+    border-width:1px 0 !important;
+}
+        /* Topics */
+.profile-topics .forum-title-header, .profile-topics .forum-last-header {
+    background:transparent !important;
+    border-width:0 !important;
+}
+.profile-topics .right-content .forum-last-header, .profile-topics .right-content .forum-last-row {
+    padding:5px !important;
+}
+.profile-topics .forum .forum-title .goto {
+    padding-top:2px !important;
+}
+    /* Doujin/Manga Listing */
+.category-box-header {
+    background:#101010 !important;
+    border-color:#303030 !important;
+}
+.category-box-header h4 a {
+    color:#FFA5A5 !important;
+}
+.category-box-header h4 a:hover {
+    color:#FFE5E5 !important;
+}
+.category-box li:nth-child(2n) {
+    background:#080808 !important;
+}
+    /* Confirmation Dialogs (Shown after adding a favourite to your profile etc.) */
+.success {
+    background:#101010 !important;
+    border-width:1px !important;
+    border-radius:0 !important;
+}
+    /* Forums */
+.forum-title-header, .forum-posts-header, .forum-last-header, .forum-posts-row {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border-color:#303030 !important;
+}
+.forum .forum-title-header, .forum-title-row {
+    color:#CCCCCC !important;
+    border-color:#303030 !important;
+}
+.forum-posts-row {
+    border:0 none transparent !important;
+}
+.forum .forum-title a {
+    color:#FF8585 !important;
+    text-decoration:underline !important;
+}
+.forum .forum-title a:hover {
+    color:#FFE5E5 !important;
+    text-decoration:underline !important;
+}
+.forum-topics .topic-row:nth-child(2n) {
+    background:#080808 !important;
+    background:#101010 !important;
+}
+.forum-topics .topic-row:hover {
+    background:#101010 !important;
+}
+.forum-title-row {
+    padding:0 !important;
+}
+.topic-image {
+    background:#080808 !important;
+}
+.post-row-top {
+    background:#101010 !important;
+    border-color:#303030 !important;
+}
+.post-message-container {
+    border-color:#303030 !important;
+    white-space:normal !important;
+    /*max-width:700px !important;*/
+}
+.post-message {
+    color:#CCC !important;
+    padding-bottom:0px !important;
+    min-height:35px !important;
+}
+.post-avatar {
+    border-color:#303030 !important;
+}
+.post-row-top-left a, .post-message a, .topic-title-left h1, .sub-navigation .breadcrumbs a {
+    color:#FFA5A5 !important;
+}
+.post-row-top-left a:hover, .post-message a:hover, .sub-navigation .breadcrumbs a:hover {
+    color:#FFE5E5 !important;
+}
+.breadcrumbs, .sub-navigation .breadcrumbs, .sub-navigation .buttons {
+    color:#CCCCCC !important;
+}
+.post-row-top-left a, .post-row-top-left a:hover {
+    text-decoration:none !important;
+}
+.post-message a:hover {
+    text-decoration:none !important;
+}
+.spoiler_hidden {
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+/*
+.spoiler_button [type="button"]{
+    color:#9D0A0A !important;
+    background:#101010 !important;
+    padding:1px !important;
+    border:1px solid #303030 !important;
+}
+*/
+.spoiler_button [type="button"]{
+    background-color:#101010 !important;
+}
+.spoiler_button:active {
+    background:#101010 !important;
+    border:1px solid #9D0A0A !important;
+}
+.spoiler_button:hover {
+    background:#101010 !important;
+    border:1px solid #9D0A0A !important;
+}
+.quote {
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+.mod_options {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+#posting {
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+#posting-message {
+    width:100% !important;
+    color:#FFF !important;
+}
+.post {
+    background:#080808 !important;
+    border-color:#303030 !important;
+    color:#FFF !important;
+}
+.message {
+    background:#101010 !important;
+    border-color:#303030 !important;
+    color:#C0C0C0 !important;
+}
+.continue {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+.highlight, #view_topic tr.highlight + tr td.post-avatar, #view_topic tr.highlight td.post-row-top, #view_topic tr.highlight + tr td.post-message-container {
+    background:#080808 !important;
+}
+.poll-box {
+    background:#080808 !important;
+    border:1px solid #303030 !important;
+}
+/* Pagination
+-------------- */
+#pagination a, #pagination .page {
+    color:#CCC !important;
+    background:#080808 !important;
+    border-radius:0 !important;
+    border-color:#303030 !important;
+}
+#pagination .page:hover {
+    background:#101010 !important;
+}
+#pagination a:hover, #pagination .page:hover {
+    color:#FFE5E5 !important;
+    border-color:#9D0A0A !important;
+    box-shadow:0 0 0 0 transparent !important;
+}
+#pagination .text {
+    color:#1180CC !important;
+    background:transparent !important;
+}
+#pagination .text:hover {
+    color:#7FCCFF !important;
+    background:transparent !important;
+    text-decoration:none !important;
+}
+/* Sidebar
+----------- */
+.box {
+    padding:6px 5px !important;
+    background:#080808 !important;
+    border-color:#303030 !important;
+}
+.box-top.poll {
+    color:#D8D8D8 !important;
+    background:#101010 !important;
+    border:1px solid #303030 !important;
+}
+.poll-row.results {
+    color:#CCCCCC !important;
+}
+.poll-row-result {
+    background:#181818 !important;
+}
+.poll-row.results span {
+    margin-top:9px !important;
+}
+.second {
+    color:#CCCCCC !important;
+    background:#101010 !important;
+    border:1px solid #303030 !important;
+}
+.recent-topics {
+    background:#000000 !important;
+}
+.forum .forum-title .goto a {
+    color:#1180CC!important;;
+    text-decoration:none !important;
+}
+.forum .forum-title .goto a:hover {
+    color:#7FCCFF !important;
+    text-decoration:none !important;
+}
+.announcement{
+    color:#CCCCCC !important;
+    background:#101010 !important;
+}
+.post-meta-wrap{
+    display: block !important;
+}
+.code{
+    background:#222 !important;
+    color:#2F2 !important;
+}
+.post .post-avatar{
+    display:none !important;
+}
+.advertisement.header{
+    display:none !important;
+}
+.post-row-body{
+    box-shadow: 0px 0px 0px 0px !important;
+}
+/* Footer
+
+---------- */
+/* No changes! */
+footer{
+    height:55px !important;
+}
+#footer-right a{
+    color:#EEE !important;
+}
+#footer-left{
+    margin:10px !important;
+}
+.footer-tail {
+    max-height:0px !important;
+}
+}

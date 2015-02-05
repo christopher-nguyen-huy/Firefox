@@ -1,0 +1,26 @@
+/* https://userstyles.org/styles/41182/firefox-7-about-blank-glass */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*Removes Background-Color From Chrome*/
+#appcontent,
+#appcontent > #content,
+#appcontent > #content > tabbox > tabpanels {
+  background-color: transparent !important;
+}
+
+/*Fixes Aero Border*/
+#main-window[stylish-url="about:blank"]:not([onclose^="PrintUtils"]):not([title^="Source Chart"]):not([chromehidden="menubar toolbar directories extrachrome "]) #appcontent { 
+  -moz-appearance: none !important;
+}
+
+/*For Transparency In Fullscreen*/
+#main-window[inFullscreen="true"]{
+  -moz-appearance: -moz-win-borderless-glass !important;
+  background: none !important;
+}
+
+/*Sets Content Transparent*/
+#main-window[stylish-url="about:blank"]:not([onclose^="PrintUtils"]):not([title^="Source Chart"]):not([chromehidden="menubar toolbar directories extrachrome "]) #content browser:not([src]){ 
+   opacity: 0 !important;
+}
+
