@@ -13,3 +13,4 @@ Wolframalpha	wa	http://www.wolframalpha.com/input/?i=%s
 Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
 Emuparadise	emu	http://www.emuparadise.me/roms/search.php?query=%s&section=all
 Gsmarena	gsm	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
+Urban Dictionary	ur	http://urbandictionnary.com
