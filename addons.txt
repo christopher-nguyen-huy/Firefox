@@ -10,6 +10,9 @@ HTTPs everywhere
 NoScript
 BetterPrivacy
 
-[Firefox]
+[FF]
 Classic theme Restorer
 Session Manager
+
+[PM]
+Adblock Latitude
