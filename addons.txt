@@ -5,6 +5,11 @@ GreaseMonkey
 Youtube Video Replay
 Youtube High Definition
 
+[Security]
+HTTPs everywhere
+NoScript
+BetterPrivacy
+
 [Firefox]
 Classic theme Restorer
 Session Manager
