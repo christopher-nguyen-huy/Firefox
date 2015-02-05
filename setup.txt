@@ -13,10 +13,10 @@ Main interface
 		Back
 		Foward
 	Make interface small
-
 Change page setup
 	Disable print backgrounds
 	Set headers and footers blank
-
-Install Addons
 	
+Set about:configs
+Install Addons
+Install themes
