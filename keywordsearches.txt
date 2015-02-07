@@ -3,7 +3,7 @@ Ebay	e	http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
 Youtube	u	https://www.youtube.com/results?search_query=%s
 Amazon.ca	a	http://www.amazon.ca/s/field-keywords=%s
 Ncix	nx	http://search.ncix.com/search/?q=%s
-Shopbot	shobot	http://www.shopbot.ca/m/?m=%s
+Shopbot	sb	http://www.shopbot.ca/m/?m=%s
 Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
 Myanimelist	mal	http://myanimelist.net/anime.php?q=%s
 Nyaa	nya	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
