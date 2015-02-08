@@ -7,7 +7,15 @@ BEGIN{
 	printf "<DL><p>"
 	printf "<H1>Bookmarks Menu</H1>"
 }
-
+{
+	printf ("<DI><A HREF=\"")
+	print $3
+	printf "\" SHORTCUTURL=\"" 
+	printf $2
+	printf "\">"
+	printf "Search " + $1
+	printf "</A>"
+}
 END{
 	printf "</DL><p>"
 	printf "</DL><p>"
