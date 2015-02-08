@@ -16,3 +16,6 @@ Session Manager
 
 [PM]
 Adblock Latitude
+
+[Not sure]
+Customizable shortcuts
