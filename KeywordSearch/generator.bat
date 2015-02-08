@@ -1,2 +1,2 @@
-gawk -f generator.awk keywords.txt > searchbookmarks.txt
+gawk -f generator.awk keywords.txt > searchbookmarks.html
 pause
