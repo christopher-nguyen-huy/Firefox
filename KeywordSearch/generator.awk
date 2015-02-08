@@ -1,19 +1,19 @@
 BEGIN{
-	print "<!DOCTYPE NETSCAPE-Bookmark-file-1>"
-	print "<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">"
-	print "<TITLE>Bookmarks</TITLE>"
-	print "<DL><p>"
-	print "<DT><H3>Searches</H3>"
-	print "<DL><p>"
-<H1>Bookmarks Menu</H1>
+	printf "\<!DOCTYPE NETSCAPE-Bookmark-file-1\>"
+	printf "<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">"
+	printf "<TITLE>Bookmarks</TITLE>"
+	printf "<DL><p>"
+	printf "<DT><H3>Searches</H3>"
+	printf "<DL><p>"
+	printf "<H1>Bookmarks Menu</H1>"
 }
-	print "<DI><A HREF="""
-	print $3
-	print "" SHORTCUTURL=""" $2
-	print """>"
-	print "Search " + $1
-	print "</A>"
+	printf ("\<DI>\<A HREF=\"")
+	printf $3
+	printf "" SHORTCUTURL="" $2
+	printf "\"\>"
+	printf "Search " + $1
+	printf "</A>"
 END{
-	print "</DL><p>"
-	print "</DL><p>"
+	printf "</DL><p>"
+	printf "</DL><p>"
 }
