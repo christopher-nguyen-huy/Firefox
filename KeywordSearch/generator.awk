@@ -1,4 +1,5 @@
 BEGIN{
+	FS="\t"
 	printf "<!DOCTYPE NETSCAPE-Bookmark-file-1>\n"
 	printf "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\">\n"
 	printf "<TITLE>Bookmarks</TITLE>\n"
