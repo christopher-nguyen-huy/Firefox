@@ -10,12 +10,13 @@ BEGIN{
 }
 {
 	printf ("<DI><A HREF=\"")
-	print $3
+	printf ("%s",$3)
 	printf "\" SHORTCUTURL=\"" 
 	printf $2
 	printf "\">"
-	printf "Search " + $1
+	printf ("%s %s","Search", $1)
 	printf "</A>"
+	printf "\n"
 }
 END{
 	printf "\t</DL><p>\n"
