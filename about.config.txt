@@ -180,3 +180,6 @@ Always force search to open in new tab:
 	not sure I'll ever use this one
 browser.search.openintab -> true
 	
+Disable WebRTC
+	because it will leak your real ip address even through a VPN
+media.peerconnection.enabled -> false
