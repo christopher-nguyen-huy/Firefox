@@ -20,3 +20,7 @@ Change page setup
 Set about:configs
 Install Addons
 Install themes
+
+Palemoon
+	Install Mycroft google search engine
+		http://mycroftproject.com/google-search-plugins.html
