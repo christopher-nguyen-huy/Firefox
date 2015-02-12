@@ -1,0 +1,14 @@
+@-moz-document url-prefix("https://accounts.google.com/ServiceLogin"){
+body{
+	background-color: #111 !important;
+	color: #CCC !important;
+}
+.card{
+	background-color: #222 !important;
+}
+#Passwd,#Email{
+	background-color: #111 !important;
+	border-color: #555 !important;
+	color: #DDD !important;
+}
+}
