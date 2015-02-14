@@ -11,4 +11,11 @@ body{
 	border-color: #555 !important;
 	color: #DDD !important;
 }
+.google-footer-bar{
+	border-top: 0px !important;
+}
+.lang-chooser{
+	background-color: #222 !important;
+	color: #CCC !important;
+}
 }
