@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("duckduckgo.com") {
+/* Because before the ddg loads the css theme, 
+there is a fraction of a second where the page 
+is all white */
+html,.header-wrap,body{
+	background:#333 !important;
+}
+
+}
