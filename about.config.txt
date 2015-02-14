@@ -187,3 +187,6 @@ media.peerconnection.enabled -> false
 Change user agent string:
 new > string: general.useragent.override -> youruseragent
 	ex: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022).
+	
+Disable Extention updates:
+new > bool: extensions.update.enabled -> false
