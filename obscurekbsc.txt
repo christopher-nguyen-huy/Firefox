@@ -1,2 +1,13 @@
 /
 	open's up quick find
+
+[Duplicates]
+Ctrl+L
+Alt+D
+	Focus address bar
+Ctrl+E
+Ctrl+K
+	Focus search bar
+Ctrl+I
+Ctrl+B
+	Toggle bookmark pane
