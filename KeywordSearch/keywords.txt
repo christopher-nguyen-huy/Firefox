@@ -15,3 +15,6 @@ Emuparadise	emu	http://www.emuparadise.me/roms/search.php?query=%s&section=all
 Gsmarena	gsm	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
 Urban Dictionary	ur	http://urbandictionnary.com/define.php?term=%s
 Google	g	https://www.google.ca/search?q=%s&num=50
+Staples	st	http://www.staples.ca/office/supplies/StaplesSearch?langId=1&sby=1&rpp=72&searchkey=%s
+Futureshop	fs	http://www.futureshop.ca/Search/SearchResults.aspx?sortBy=price&sortDir=asc&pageSize=96&query=%s
+BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=price&sortDir=asc&query=sony+ear
