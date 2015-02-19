@@ -1,20 +1,20 @@
 Google Maps	m	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
-Ebay	e	http://www.ebay.ca/sch/i.html?&_nkw=%s&_sacat=0&_ipg=200&_sop=15
+Ebay	e	http://www.ebay.ca/sch/i.html?_sacat=0&_ipg=200&_sop=15&&_nkw=%s
 Youtube	u	https://www.youtube.com/results?search_query=%s
 Amazon.ca	a	http://www.amazon.ca/s/field-keywords=%s
 Ncix	nx	http://search.ncix.com/search/?q=%s
 Shopbot	sb	http://www.shopbot.ca/m/?m=%s
 Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
 Myanimelist	mal	http://myanimelist.net/anime.php?q=%s
-Nyaa	nya	http://www.nyaa.se/?page=search&term=%s&sort=2&cats=1_37
-Sukebei Nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&term=%s&cats=7_25
-Wikipedia	w	http://www.wikipedia.org/search-redirect.php?search=%s&language=en
+Nyaa	nya	http://www.nyaa.se/?page=search&sort=2&cats=1_37&term=%s
+Sukebei Nyaa	nyas	http://sukebei.nyaa.se/?page=search&sort=2&cats=7_25&term=%s
+Wikipedia	w	http://www.wikipedia.org/search-redirect.php?language=en&search=%s
 Wolframalpha	wa	http://www.wolframalpha.com/input/?i=%s
 Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=true&q=%s
-Emuparadise	emu	http://www.emuparadise.me/roms/search.php?query=%s&section=all
+Emuparadise	emu	http://www.emuparadise.me/roms/search.php?section=all&query=%s
 Gsmarena	gsm	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
 Urban Dictionary	ur	http://urbandictionnary.com/define.php?term=%s
-Google	g	https://www.google.ca/search?q=%s&num=50
+Google	g	https://www.google.ca/search?num=50&q=%s
 Staples	st	http://www.staples.ca/office/supplies/StaplesSearch?langId=1&sby=1&rpp=72&searchkey=%s
 Futureshop	fs	http://www.futureshop.ca/Search/SearchResults.aspx?sortBy=price&sortDir=asc&pageSize=96&query=%s
-BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=price&sortDir=asc&query=sony+ear
+BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=price&sortDir=asc&query=%s
