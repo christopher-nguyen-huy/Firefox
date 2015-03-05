@@ -4,7 +4,7 @@
 there is a fraction of a second where the page 
 is all white. And it burns the eyes. */
 html,.header-wrap,body{
-	background:#333 !important;
+	background:#222 !important;
 }
 .search--home, .search--header {
     border-color: rgb(36, 36, 36);
