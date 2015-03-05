@@ -190,3 +190,6 @@ new > string: general.useragent.override -> youruseragent
 	
 Disable Extention updates:
 new > bool: extensions.update.enabled -> false
+
+Disable Firefox Hello:
+loop.enabled -> false
