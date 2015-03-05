@@ -1,5 +1,4 @@
 /* https://userstyles.org/styles/22801/darklicious-reddit-rewritten */
-
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("reddit.com") {
@@ -122,13 +121,17 @@ a:hover
   background-color:#111!important;
   border:none!important;
 }
-
 .content .link .title,
 .content .link .tagline,
 .content .link .flat-list.buttons
 {
   letter-spacing:-1px!important;
   margin-bottom:0px!important;
+}
+.content .link .flat-list.buttons
+{
+  background-color:transparent!important;
+  border:none!important;
 }
 .content .link .title a
 {
@@ -178,6 +181,11 @@ a:hover
 {
   width:auto!important;
   padding-right:2px!important;
+}
+.listing-page .thing.link:before
+{
+  background:none!important;
+  border:none!important;
 }
 .content .link .score
 {
@@ -593,9 +601,34 @@ html.res-commentBoxes .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
 html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
 html:not([lang="xx"]) .comment .comment,
-html:not([lang="xx"]) .comment .comment .comment
+html:not([lang="xx"]) .comment .comment .comment,
+.commentarea > .usertext,
+.commentarea .menuarea,
+.commentarea .panestack-title,
+.nestedlisting > .comment .comment,
+.nestedlisting > .comment .comment .comment .comment,
+.nestedlisting > .comment .comment .comment .comment .comment .comment,
+.nestedlisting > .comment .comment .comment,
+.nestedlisting > .comment .comment .comment .comment .comment,
+.nestedlisting > .comment .comment .comment .comment .comment .comment .comment
 {
   background:transparent!important;
+}
+.commentarea > .usertext
+{
+  box-shadow:none!important;
+  border:none!important;
+}
+.commentarea .flat-list.buttons
+{
+  border-top:none!important;
+  margin-top:0px!important;
+}
+.comment .tagline
+{
+  border-bottom:none!important;
+  padding:0px!important;
+  line-height:1.4em!important;
 }
 html:not([lang="xx"]) .comment,
 html:not([lang="xx"]) .comment .comment .comment,
@@ -613,7 +646,20 @@ html .comment,
 {
   background-color:#222!important;
 }
-
+.comment .usertext
+{
+  padding:0px!important;
+}
+.nestedlisting > div.comment
+{
+  box-shadow:none!important;
+  margin:0px!important;
+}
+.commentarea div.comment, .linklisting div.comment
+{
+  padding-bottom:2px!important;
+  padding-top:1px!important;
+}
 
 /*COMMENTS*/
 
@@ -1065,12 +1111,4 @@ body>.content>.md,
 {
   color:black!important;
 }
-
-
-
-
-
-
-
-
 }
