@@ -13,4 +13,7 @@ html,.header-wrap,body{
 .search__input--adv {
     color: rgb(230, 230, 230);
 }
+#powered_by{
+	display:none !important;
+}
 }
