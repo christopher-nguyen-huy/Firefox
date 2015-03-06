@@ -2,3 +2,21 @@ When in the url bar, after typing some letters
 	Alt + Enter opens the highlighted URL in a new tab.
 	Shift + Enter opens the highlighted URL in the current tab.
 	Cursor Right(right kb button) copies the highlighted URL to the location bar in case you want to edit it. 
+	
+Searches
+	When searching, using the search bar, the address bar or the startpage, sometimes the browser will be added as a parameter. For share revenu purposes. However, this can be used for tracking purposes also. To disable that parameter go to this folder and comment out the paramenters
+	C:\Program Files (x86)\Mozilla Firefox\browser\searchplugins
+	For DDG
+		<Url type="text/html" method="get" template="https://duckduckgo.com/">
+		<Param name="q" value="{searchTerms}"/>
+			<MozParam name="t" condition="purpose" purpose="contextmenu" value="ffcm"/>
+			<MozParam name="t" condition="purpose" purpose="keyword"     value="ffab"/>
+			<MozParam name="t" condition="purpose" purpose="searchbar"   value="ffsb"/>
+			<MozParam name="t" condition="purpose" purpose="homepage"    value="ffhp"/>
+			<MozParam name="t" condition="purpose" purpose="newtab"      value="ffnt"/>
+		</Url>
+		<!-- <Param name="t" value="palemoon"/>   -->
+	http://askubuntu.com/questions/577286/how-to-remove-t-canonical-from-firefox-browser-searches-made-on-duckduckgo
+	https://duck.co/forum/thread/4864/duckduckgo-on-ubuntu
+	http://12bytes.org/articles/tech/opting-out-of-the-firefoxgoogle-partnership
+	You might need to change search engines, restart browser, then change to new search engine again.
