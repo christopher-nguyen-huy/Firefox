@@ -171,7 +171,7 @@ browser.chrome.site_icons -> false
 Set notepad++ as external editor:
 view_source.editor.external;true
 view_source.editor.path -> C:/Program Files (x86)/Notepad++/notepad++.exe
-view_source.editor.args -> -multiInst -notabbar -nosession -noPlugin
+view_source.editor.args -> -multiInst -nosession -noPlugin
 
 Paste clipboard with middle click:
 middlemouse.paste -> true
@@ -193,3 +193,6 @@ new > bool: extensions.update.enabled -> false
 
 Disable Firefox Hello:
 loop.enabled -> false
+
+Change addressbar search engine:
+new > string: keyword.url -> http://duckduckgo.com/?q=
