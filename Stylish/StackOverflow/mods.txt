@@ -6,6 +6,7 @@ Stuff to hide
 	#careers3
 	#sidebar
 	#footer
+	#feed-link
 	
 Color change
 	.vote-count-post -> #DDD
@@ -14,9 +15,11 @@ Remove min-width
 	html
 	body
 	
-Remove width
-	#header
+Set width auto
+	.topbar
 	.topbar .topbar-wrapper
+	#header
 	#content
 	#mainbar
 	.footerwrap
+	#footer #footer-sites

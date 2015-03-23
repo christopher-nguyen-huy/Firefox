@@ -1,4 +1,4 @@
-.topbar,#hmenus,#careers1,#careers2,#careers3,#sidebar,#footer{
+.topbar,#hmenus,#careers1,#careers2,#careers3,#sidebar,#footer,#feed-link{
 	display:none !important;
 }
 
@@ -10,6 +10,6 @@ html,body{
 	min-width: 0px !important;
 }
 
-#header,.topbar .topbar-wrapper,#content,#mainbar.,.footerwrap{
-	width: 100% !important;
+.topbar,.topbar .topbar-wrapper,#header,#content,#mainbar,.footerwrap,#footer #footer-sites{
+    width: auto !important;
 }
