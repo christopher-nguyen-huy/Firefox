@@ -1,3 +1,15 @@
-careers1{
+.topbar,#hmenus,#careers1,#careers2,#careers3,#sidebar,#footer{
 	display:none !important;
+}
+
+.vote-count-post{
+	color: #DDD !important;
+}
+
+html,body{
+	min-width: 0px !important;
+}
+
+#header,.topbar .topbar-wrapper,#content,#mainbar.,.footerwrap{
+	width: 100% !important;
 }

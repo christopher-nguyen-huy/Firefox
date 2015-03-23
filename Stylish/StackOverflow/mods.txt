@@ -1,0 +1,22 @@
+Stuff to hide
+	.topbar
+	#hmenus
+	#careers1
+	#careers2
+	#careers3
+	#sidebar
+	#footer
+	
+Color change
+	.vote-count-post -> #DDD
+	
+Remove min-width
+	html
+	body
+	
+Remove width
+	#header
+	.topbar .topbar-wrapper
+	#content
+	#mainbar
+	.footerwrap
