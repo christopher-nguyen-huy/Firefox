@@ -3,9 +3,13 @@
 /* Because before the ddg loads its own css theme, 
 there is a fraction of a second where the page 
 is all white. And it burns the eyes. */
-html,.header-wrap,body{
-	background:#222 !important;
+html,
+.header-wrap,
+.site-wrapper,
+body{
+background:#222 !important;
 }
+
 .search--home, .search--header {
     border-color: rgb(36, 36, 36);
     background-color: rgb(41, 41, 41);
@@ -13,7 +17,13 @@ html,.header-wrap,body{
 .search__input--adv {
     color: rgb(230, 230, 230);
 }
-#powered_by{
-	display:none !important;
+.result__snippet{
+    color:#DDD !important;
+}   
+.result__a{
+    color:#CCC !important;
+}
+.result-url{
+    color:#858585 !important;
 }
 }
