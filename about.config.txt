@@ -196,3 +196,6 @@ loop.enabled -> false
 
 Change addressbar search engine:
 new > string: keyword.url -> http://duckduckgo.com/?q=
+
+Disable firefox plugin version checking (flash)
+extensions.blocklist.enabled -> false
