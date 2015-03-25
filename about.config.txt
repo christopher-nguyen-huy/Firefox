@@ -84,9 +84,9 @@ network.http.max-connections  -> 48 or 96
 network.http.max-persistent-connections-per-server -> 12
 network.http.max-connections-per-server -> 24
 Logicalincrements version:
-network.http.pipelining.maxrequests => 64
-network.http.max-connections => 512
-network.http.max-persistent-connections-per-server => 32
+network.http.pipelining.maxrequests -> 64
+network.http.max-connections -> 512
+network.http.max-persistent-connections-per-server -> 32
 
 
 tab minimal shrink size width:
@@ -169,7 +169,7 @@ browser.chrome.favicons -> false
 browser.chrome.site_icons -> false
 
 Set notepad++ as external editor:
-view_source.editor.external;true
+view_source.editor.external -> true
 view_source.editor.path -> C:/Program Files (x86)/Notepad++/notepad++.exe
 view_source.editor.args -> -multiInst -nosession -noPlugin
 
