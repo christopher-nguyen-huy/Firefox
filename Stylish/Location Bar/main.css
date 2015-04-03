@@ -1,0 +1,40 @@
+/* https://userstyles.org/styles/8606/awesome-bar-one-liner/ */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*always show results (for adjustments)*/
+
+/*
+
+#PopupAutoCompleteRichResult{display:-moz-box!important}
+
+*/
+
+
+
+/*remove margin/padding*/
+
+#PopupAutoCompleteRichResult richlistitem,#PopupAutoCompleteRichResult richlistitem *{margin:0!important;padding:0!important}
+
+/*selection hover*/
+
+#PopupAutoCompleteRichResult richlistitem[selected="true"]{color:#FFF!important;background-color:#8789de!important}
+
+/*hide title*/
+
+#PopupAutoCompleteRichResult richlistitem .ac-title,
+
+/*hide space*/
+
+#PopupAutoCompleteRichResult richlistitem .ac-site-icon:not([src]),
+
+#PopupAutoCompleteRichResult richlistitem .ac-type-icon:not([class*="ac-result-type-"]),
+
+/*hide url*/
+
+#PopupAutoCompleteRichResult richlistitem .ac-url{display:none!important}
+
+/*add url*/
+
+#PopupAutoCompleteRichResult richlistitem{display:block!important}
+
+#PopupAutoCompleteRichResult richlistitem:after{content:" "attr(url)!important}

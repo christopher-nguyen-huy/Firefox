@@ -1,0 +1,5 @@
+@-moz-document url(about:blank){
+    html, body, div, * {
+        background-color: black !important;
+    }
+}
