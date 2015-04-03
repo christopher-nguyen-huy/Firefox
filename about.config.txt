@@ -199,3 +199,33 @@ new > string: keyword.url -> http://duckduckgo.com/?q=
 
 Disable firefox plugin version checking (flash)
 extensions.blocklist.enabled -> false
+
+Disable tooltips
+browser.chrome.toolbar_tips -> false
+
+Prevent sites altering browser history
+browser.history.allow*State -> false
+
+Prevent sites from altering context menu
+dom.event.contextmenu.enabled -> true
+
+Prevent plugins from using external scripts with XPCOM or XPCONNECT
+security.xpconnect.plugin.unrestricted -> false
+
+Prevent websites from removing the toolbar
+dom.disable_window_open_feature.toolbar -> true
+
+Prevent websites from removing the title bar
+dom.disable_window_open_feature.titlebar -> true
+
+Prevent websites from removing scroll bars
+dom.disable_window_open_feature.scrollbars -> true
+
+Prevent websites from removing the personal bar
+dom.disable_window_open_feature.personalbar -> true
+
+Prevent websites from removing the menu bar
+dom.disable_window_open_feature.menubar -> true
+
+Disable caching SSL sites
+browser.cache.disk_cache_ssl -> false
