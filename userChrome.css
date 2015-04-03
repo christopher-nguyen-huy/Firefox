@@ -26,12 +26,6 @@
 	color: #DDD !important;	
 }
 
-/* dark about:config, not sure if working */
-tree#configTree, tree#tabList {
-    min-height: 600px;
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feComponentTransfer><feFuncR type='table' tableValues='1 0'/><feFuncG type='table' tableValues='1 0'/><feFuncB type='table' tableValues='1 0'/></feComponentTransfer></filter></svg>#invert");
-}
-
 /* Remove SearchBar Magnifying Glass */
 .search-go-button {
 	display:none !important;
@@ -41,4 +35,40 @@ tree#configTree, tree#tabList {
 #search-container {
 	max-width:200px! important; 
 	min-width:200px! important;
+}
+
+.searchbar-popup{
+	background-color: #111 !important;
+	color: #DDD !important;	
+}
+
+/* Hide RSS feed icon from the location bar*/
+#feed-button {
+	display: none !important;
+}
+
+/* Location bar dropdown */
+#PopupAutoCompleteRichResult[type="autocomplete-richlistbox"]
+{
+    opacity: 0.8 !important;
+}
+#PopupAutoCompleteRichResult richlistitem{
+	background-color: #111 !important;
+	color: #DDD !important;	
+}
+#PopupAutoCompleteRichResult richlistitem[selected="true"]{
+	background-color:#222!important;
+	color:#FFF!important;
+}
+.ac-url-text {
+	font-size: 100% ! important;
+	color: #00B5FC ! important;
+}
+.ac-url-text[selected="true"] {
+	color: #0F0 !important; 
+}
+
+/* No auto-complete arrow on location bar */
+.autocomplete-history-dropmarker{
+	display: none !important;
 }
