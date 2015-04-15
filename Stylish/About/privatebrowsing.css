@@ -1,7 +1,7 @@
 @-moz-document url(about:privatebrowsing){
-    html, body, div {
-          background-image: none !important;;
-        background-color:#111!important;
-        color:#CCC !important;
-    }
+	html, body, div {
+		background-image: none !important;;
+		background-color:#111!important;
+		color:#CCC !important;
+	}
 }
