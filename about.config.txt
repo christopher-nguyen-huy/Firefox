@@ -229,3 +229,19 @@ dom.disable_window_open_feature.menubar -> true
 
 Disable caching SSL sites
 browser.cache.disk_cache_ssl -> false
+
+Access Keys
+	Access key
+		ui.key.contentAccess -> 2
+		(ctrl is good)
+		ui.key.generalAccessKey = -1 msut be enabled
+	Menu activate key
+		ui.key.chromeAccess -> number
+	Numbers:
+		0 = disabled
+		1 = shift
+		2 = ctrl
+		3 = ctrl + shift
+		4 = alt
+		5 = alt + shift
+		8 = meta
