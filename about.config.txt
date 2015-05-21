@@ -170,7 +170,7 @@ browser.chrome.site_icons -> false
 
 Set notepad++ as external editor:
 view_source.editor.external -> true
-view_source.editor.path -> C:/Program Files (x86)/Notepad++/notepad++.exe
+view_source.editor.path -> C:\Program Files (x86)\Notepad++\notepad++.exe
 view_source.editor.args -> -multiInst -nosession -noPlugin
 
 Paste clipboard with middle click:
