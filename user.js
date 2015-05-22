@@ -5,7 +5,7 @@ user_pref("browser.search.showOneOffButtons",false);
 user_pref("browser.cache.disk.enable",false);
 user_pref("browser.cache.memory.enable",true);
 user_pref("browser.cache.memory.max_entry_size",-1);
-user_pref("browser.cache.disk.parent_directory","/tmp/firefox");
+//user_pref("browser.cache.disk.parent_directory","/tmp/firefox");
 //	Not sure about this last one here
 //	doesn't seem like this works on windows
 
@@ -18,15 +18,16 @@ user_pref("content.max.tokenizing.time",100000);
 user_pref("content.notify.backoffcount",-1);
 user_pref("content.notify.interval",100000);
 user_pref("content.switch.threshold",2000000);
+
 //According to me(in the past lol):
 //Load large pages faster:
-user_pref("content.notify.interval",500000);
+//user_pref("content.notify.interval",500000);
 //	(0.5s)
-user_pref("content.notify.ontimer",true);
+//user_pref("content.notify.ontimer",true);
 //Ignore interrupts:
-user_pref("content.switch.threshold",250000);
+//user_pref("content.switch.threshold",250000);
 //	(0.25s)
-user_pref("content.interrupt.parsing",false);
+//user_pref("content.interrupt.parsing",false);
 
 
 //Disable Thumbnails in about:newtab
@@ -54,10 +55,10 @@ user_pref("extensions.checkCompatibility",false);
 user_pref("browser.altClickSave",true);
 
 //Imageview Background color:
-user_pref("browser.display.standalone_images.background_color","#000000");
 //	(for black)
-user_pref("browser.display.standalone_images.background_color","#FFFFFF");
+user_pref("browser.display.standalone_images.background_color","#000000");
 //	(for white)
+//user_pref("browser.display.standalone_images.background_color","#FFFFFF");
 //	
 //Disable ipv6:
 user_pref("network.dns.disableIPv6",true);
@@ -80,7 +81,8 @@ user_pref("browser.download.manager.retention",0);
 user_pref("security.dialog_enable_delay",0);
 
 //Connections Boosting:
-user_pref("network.http.max-connections",48 or 96);
+//max-connections 48 or 96, not sure which one
+user_pref("network.http.max-connections",48);
 user_pref("network.http.max-persistent-connections-per-server",12);
 user_pref("network.http.max-connections-per-server",24);
 //Logicalincrements version:
@@ -103,8 +105,8 @@ user_pref("browser.tabs.insertRelatedAfterCurrent",false);
 user_pref("browser.tabs.animate",false);
 
 //Smart address bar suggestion number:
-user_pref("browser.urlbar.maxRichResults",any number);
-//	-1 to disable
+//	-1 to disable, otherwise any number
+user_pref("browser.urlbar.maxRichResults",10);
 
 //Disable tab preview:
 user_pref("browser.allTabs.previews",false);
@@ -119,11 +121,11 @@ user_pref("network.http.pipelining.firstrequest",true);
 user_pref("network.http.pipelining",true);
 user_pref("network.http.pipelining.ssl",true);
 user_pref("network.http.proxy.pipelining",true);
-user_pref("network.http.pipelining.maxrequests",20-40);
-//	Who knows what's going on here
+//	Who knows what's going on here 20-40
+user_pref("network.http.pipelining.maxrequests",30);
 //	
 //Disable Geolocation:
-user_pref("geo.enabled",false);
+//user_pref("geo.enabled",false);
 //	Might not be a good idea
 //	Everything that was supposed to return a .ca version in google returns the .com version
 
@@ -185,7 +187,7 @@ user_pref("browser.search.openintab",true);
 user_pref("media.peerconnection.enabled",false);
 
 //Change user agent string:
-user_pref("general.useragent.override",youruseragent);
+//user_pref("general.useragent.override",youruseragent);
 //	ex: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022).
 //	
 //Disable Extention updates:
@@ -195,7 +197,7 @@ user_pref("extensions.update.enabled",false);
 user_pref("loop.enabled",false);
 
 //Change addressbar search engine:
-user_pref("keyword.url","http://duckduckgo.com/?q=");
+//user_pref("keyword.url","http://duckduckgo.com/?q=");
 
 //Disable firefox plugin version checking (flash)
 user_pref("extensions.blocklist.enabled",false);
@@ -232,10 +234,10 @@ user_pref("browser.cache.disk_cache_ssl",false);
 
 //Access Keys
 //	Access key
-user_pref("ui.key.contentAccess",number);
+//user_pref("ui.key.contentAccess",number);
 //		ui.key.generalAccessKey = -1 msut be enabled
 //	Menu activate key
-user_pref("ui.key.chromeAccess",number);
+//user_pref("ui.key.chromeAccess",4);
 //	Numbers:
 //		0 = disabled
 //		1 = shift
