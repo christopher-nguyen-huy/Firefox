@@ -22,11 +22,11 @@ According to me(in the past lol):
 Load large pages faster:
 new > int: content.notify.interval -> 500000
 	(0.5s)
-new > bool: content.notify.ontimer -> True
+new > bool: content.notify.ontimer -> true
 Ignore interrupts:
 new > int: content.switch.threshold -> 250000 
 	(0.25s)
-new > bool: content.interrupt.parsing -> False
+new > bool: content.interrupt.parsing -> false
 
 
 Disable Thumbnails in about:newtab
