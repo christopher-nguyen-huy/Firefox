@@ -172,7 +172,7 @@ user_pref("browser.chrome.site_icons",false);
 
 //Set notepad++ as external editor:
 user_pref("view_source.editor.external",true);
-user_pref("view_source.editor.path","C:\Program Files (x86)\Notepad++\notepad++.exe");
+user_pref("view_source.editor.path","C:\\Program Files (x86)\\Notepad++\\notepad++.exe");
 user_pref("view_source.editor.args","-multiInst -nosession -noPlugin");
 
 //Paste clipboard with middle click:
