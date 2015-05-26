@@ -1,0 +1,80 @@
+﻿/********************************/
+/* iBaked V for Firefox Scrollbar {DarkState} */
+/********************************/
+/*      By DarkMorpher      */
+/********************************/
+
+/* AGENT_SHEET */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+scrollbar {
+    -moz-appearance: none !important;
+    background: #181818 !important;
+    border-left: 1px solid #161616 !important;}
+
+scrollbar thumb {
+    -moz-appearance: none !important;
+    background: #636363 !important;
+    background-clip: padding-box !important;
+    border: none !important;}
+
+scrollbar thumb:not(:active):hover, scrollbar thumb:hover:active {
+    background: #0f80fd !important;
+    background-clip: padding-box !important;
+    -webkit-transition: background 0.5s !important;
+    transition: background 0.5s !important;}
+
+scrollbar thumb:active,
+scrollbar thumb[active="true"] {
+    border: none !important;
+    background: #363636 !important;
+    -webkit-transition: background 0.5s !important;
+    transition: background 0.5s !important;
+    background-clip: padding-box !important;}
+
+scrollbar scrollbarbutton,
+scrollbar gripper,
+scrollcorner {
+    -moz-appearance: none ! important;
+    border: none !important;
+    -moz-appearance: none !important;
+    background: #181818 !important;
+    -webkit-transition: background 0.5s !important;
+    transition: background 0.5s !important;
+    transition-timing-function: ease !important;
+    -webkit-transition-timing-function: ease !important;}
+
+scrollbar[orient="vertical"] > scrollbarbutton {
+    min-height: 18px !important;
+    max-height: 18px !important;
+    min-width: 8px !important;
+    max-width: 8px !important;}
+
+scrollbar[orient="horizontal"] > scrollbarbutton {
+    min-height: 8px !important;
+    max-height: 8px !important;
+    min-width: 8px !important;
+    max-width: 8px !important;}
+ 
+scrollbar > scrollbarbutton[disabled="true"] {opacity: 0.8 !important;}
+
+scrollbar > scrollbarbutton:not([disabled="true"]):hover {
+    border: none !important;
+    background: #0f80fd !important;
+    -webkit-transition: background 0.5s !important;
+    transition: background 0.5s !important;
+    transition-timing-function: ease !important;
+    -webkit-transition-timing-function: ease !important;
+    background-clip: padding-box !important;}
+
+scrollbar > scrollbarbutton:not([disabled="true"]):hover:active,
+scrollbar > scrollbarbutton:not([disabled="true"])[active="true"] {
+    -moz-appearance: none !important;
+    border: none !important;
+    background: #0f80fd !important;
+    -webkit-transition: background 0.5s !important;
+    transition: background 0.5s !important;
+    transition-timing-function: ease !important;
+    -webkit-transition-timing-function: ease !important;
+    background-clip: padding-box !important;}
