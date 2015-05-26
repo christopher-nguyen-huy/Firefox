@@ -246,3 +246,6 @@ user_pref("browser.cache.disk_cache_ssl",false);
 //		4 = alt
 //		5 = alt + shift
 //		8 = meta
+
+//Disabling tab-based preferences in Firefox 38 
+user_pref("browser.preferences.inContent",false);
