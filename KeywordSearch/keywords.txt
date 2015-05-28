@@ -19,3 +19,4 @@ Google Images	gi	https://www.google.ca/search?tbm=isch&q=%s
 Staples	st	http://www.staples.ca/office/supplies/StaplesSearch?langId=1&sby=1&rpp=72&searchkey=%s
 Futureshop	fs	http://www.futureshop.ca/Search/SearchResults.aspx?sortBy=price&sortDir=asc&pageSize=96&query=%s
 BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=price&sortDir=asc&query=%s
+Newegg	ne	http://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&Order=PRICE&PageSize=90&Description=%s
