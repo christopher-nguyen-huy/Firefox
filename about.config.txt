@@ -244,3 +244,9 @@ Access Keys
 		4 = alt
 		5 = alt + shift
 		8 = meta
+
+Disable Images		
+permissions.default.image -> 2
+0: dont load third images 
+1: always load the images
+2: never load the images
