@@ -250,3 +250,6 @@ permissions.default.image -> 2
 0: dont load third images 
 1: always load the images
 2: never load the images
+
+Disable Firefox Pocket:
+browser.pocket.enabled -> false
