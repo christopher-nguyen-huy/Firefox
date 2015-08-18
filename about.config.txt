@@ -253,3 +253,6 @@ permissions.default.image -> 2
 
 Disable Firefox Pocket:
 browser.pocket.enabled -> false
+
+Disable Preferences in tab
+browser.preferences.inContent -> false
