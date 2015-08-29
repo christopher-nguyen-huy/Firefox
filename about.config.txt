@@ -256,3 +256,6 @@ browser.pocket.enabled -> false
 
 Disable Preferences in tab
 browser.preferences.inContent -> false
+
+Disable html5 fullscreen video prompt
+full-screen-api.approval-required -> false
