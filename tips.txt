@@ -6,6 +6,7 @@ When in the url bar, after typing some letters
 Searches
 	When searching, using the search bar, the address bar or the startpage, sometimes the browser will be added as a parameter. For share revenu purposes. However, this can be used for tracking purposes also. To disable that parameter go to this folder and comment out the paramenters
 	C:\Program Files (x86)\Mozilla Firefox\browser\searchplugins
+	Profile folder, search.json
 	For DDG
 		<Url type="text/html" method="get" template="https://duckduckgo.com/">
 		<Param name="q" value="{searchTerms}"/>
