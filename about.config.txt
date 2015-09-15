@@ -259,3 +259,6 @@ browser.preferences.inContent -> false
 
 Disable html5 fullscreen video prompt
 full-screen-api.approval-required -> false
+
+Palemoon only: randomize canvas to prevent fingerprinting
+canvas.poisondata -> true
