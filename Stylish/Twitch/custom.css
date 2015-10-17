@@ -1,4 +1,4 @@
 /* hide login sign when not logged in */
-#new-user-prompt{
+.upsell-banner{
 	display:none !important;
 }
