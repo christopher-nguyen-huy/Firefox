@@ -21,4 +21,4 @@ Futureshop	fs	http://www.futureshop.ca/Search/SearchResults.aspx?sortBy=price&so
 BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=price&sortDir=asc&query=%s
 Newegg	ne	http://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&Order=PRICE&PageSize=90&Description=%s
 Kickass	kat	https://kat.cr/usearch/%s/?field=seeders&sorder=desc
-Here	here	https://www.here.com/search/%s/
+Here	here	https://www.here.com/search/%s
