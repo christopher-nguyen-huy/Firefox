@@ -3,6 +3,10 @@ body{
 	background-color: #111 !important;
 	color: #CCC !important;
 }
+.jfk-bubble{
+	background-color: #111 !important;
+	border-color: #111 !important;
+}
 .card,.card-mask{
 	background-color: #111 !important;
 	background-image: none !important;
