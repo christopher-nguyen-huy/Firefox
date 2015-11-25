@@ -14,7 +14,7 @@ Canadiantire	ct	http://www.canadiantire.ca/en/search-results.html?searchByTerm=t
 Emuparadise	emu	http://www.emuparadise.me/roms/search.php?section=all&query=%s
 Gsmarena	gsm	http://www.gsmarena.com/results.php3?sQuickSearch=yes&sName=%s
 Urban Dictionary	ur	http://urbandictionnary.com/define.php?term=%s
-Google	g	https://www.google.ca/search?num=50&q=%s
+Google	g	https://www.google.ca/search?num=100&q=%s
 Google Images	gi	https://www.google.ca/search?tbm=isch&q=%s
 Staples	st	http://www.staples.ca/office/supplies/StaplesSearch?langId=1&sby=1&rpp=72&searchkey=%s
 Futureshop	fs	http://www.futureshop.ca/Search/SearchResults.aspx?sortBy=price&sortDir=asc&pageSize=96&query=%s
