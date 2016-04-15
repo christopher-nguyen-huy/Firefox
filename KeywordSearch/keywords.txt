@@ -22,3 +22,4 @@ BestBuy	bb	http://www.bestbuy.ca/Search/SearchResults.aspx?pageSize=96&sortBy=pr
 Newegg	ne	http://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&Order=PRICE&PageSize=90&Description=%s
 Kickass	kat	https://kat.cr/usearch/%s/?field=seeders&sorder=desc
 Here	here	https://www.here.com/search/%s
+Wal-mart	wm	https://www.walmart.ca/search/%s
