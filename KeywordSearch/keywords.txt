@@ -23,3 +23,4 @@ Newegg	ne	http://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&Order=PRICE&P
 Kickass	kat	https://kat.cr/usearch/%s/?field=seeders&sorder=desc
 Here	here	https://www.here.com/search/%s
 Wal-mart	wm	https://www.walmart.ca/search/%s
+Piratebay	p https://thepiratebay.se/search/%s/0/7/0
