@@ -1,0 +1,13 @@
+@-moz-document domain(facebook.com) {
+	#appsNav /* no facebook games */
+	,#feedx_container /* no accidental post status */
+	,._khz /* no accidental post like */
+	,.share_action_link /*  no accidental post share */
+	,._64a /* no accidental follow mark zuckerberg */
+	,.PageLikeButton /* no accidental page like */
+	,.UFILikeLink /* no accidental photo like */
+	,#pagelet_rhc_footer /* no facebook terms and conditions */
+	{
+		display: none !important;
+	}
+}
