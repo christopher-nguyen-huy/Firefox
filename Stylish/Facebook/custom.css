@@ -6,8 +6,22 @@
 	,._64a /* no accidental follow mark zuckerberg */
 	,.PageLikeButton /* no accidental page like */
 	,.UFILikeLink /* no accidental photo like */
+	,#aymt_homepage_panel_tip /* My pages tips */
 	,#pagelet_rhc_footer /* no facebook terms and conditions */
+	,#navItem_357937250942127 /* Like Pages menu item */
+	,#navItem_140472815972081 /* Pages Feed menu item */
+	,#navItem_400915586638539 /* Create Ad menu item */
+	,#navItem_4748854339 /* News feed menu item */
+	,#navItem_1433252076974635 /* Sales Groups menu item */
+	,#navItem_1728807357362356 /* Discover Groups menu item */
 	{
 		display: none !important;
+	}
+	#rightCol{
+		width: 32% !important;
+	}
+	#globalContainer{
+		width: auto !important;
+		max-width: 1014px !important;
 	}
 }
