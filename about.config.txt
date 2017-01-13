@@ -262,3 +262,6 @@ full-screen-api.approval-required -> false
 
 Palemoon only: randomize canvas to prevent fingerprinting
 canvas.poisondata -> true
+
+Disable mozilla signature check for addons
+xpinstall.signatures.required -> false
