@@ -265,3 +265,6 @@ canvas.poisondata -> true
 
 Disable mozilla signature check for addons
 xpinstall.signatures.required -> false
+
+Disable browser notifications
+dom.webnotifications.enabled -> false
