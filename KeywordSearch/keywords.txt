@@ -24,3 +24,4 @@ Kickass	kat	https://kat.cr/usearch/%s/?field=seeders&sorder=desc
 Here	here	https://www.here.com/search/%s
 Wal-mart	wm	http://www.walmart.ca/search/%s
 Piratebay	p	https://thepiratebay.se/search/%s/0/7/0
+LimeTorrent	lime	https://www.limetorrents.cc/search/all/%s/seeds/1/
