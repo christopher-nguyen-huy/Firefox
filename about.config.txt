@@ -154,7 +154,7 @@ browser.send_pings -> false
 browser.send_pings.require_same_host -> true
 
 Disable keywords:
-	why?
+	So that hitting enter in the address bar doesn't google search
 keyword.enabled -> false
 
 Disable certificates:
