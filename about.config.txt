@@ -268,3 +268,6 @@ xpinstall.signatures.required -> false
 
 Disable browser notifications
 dom.webnotifications.enabled -> false
+
+Disable reader view
+reader.parse-on-load.enabled -> false
