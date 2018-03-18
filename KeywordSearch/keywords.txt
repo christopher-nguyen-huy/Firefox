@@ -25,3 +25,5 @@ Here	here	https://www.here.com/search/%s
 Wal-mart	wm	http://www.walmart.ca/search/%s
 Piratebay	p	https://thepiratebay.org/search/%s/0/7/0
 LimeTorrent	lime	https://www.limetorrents.cc/search/all/%s/seeds/1/
+NyaPantsu	nyap	https://nyaa.pantsu.cat/search?c=3_&order=false&sort=5&q=%s
+Sukebei NyaPantsu	nyaps	https://sukebei.pantsu.cat/search?c=1_1&order=false&sort=5&q=%s
