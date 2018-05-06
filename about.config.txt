@@ -274,3 +274,6 @@ reader.parse-on-load.enabled -> false
 
 Disable cosmetic animations (FF 57+)
 toolkit.cosmeticAnimations.enabled -> false
+
+Enable tor addresses
+network.dns.blockDotOnion -> false
