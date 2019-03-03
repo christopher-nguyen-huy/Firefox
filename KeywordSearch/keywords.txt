@@ -1,7 +1,7 @@
 Google Maps	m	https://maps.google.ca/maps?iwloc=addr&output=classic&q=%s
 Ebay	e	http://www.ebay.ca/sch/i.html?_sacat=0&_ipg=200&_sop=15&&_nkw=%s
 Youtube	u	https://www.youtube.com/results?search_query=%s
-Amazon.ca	a	http://www.amazon.ca/s/field-keywords=%s
+Amazon.ca	a	http://www.amazon.ca/s?k=%s
 Ncix	nx	http://www.ncix.com/search/?q=%s
 Shopbot	sb	http://www.shopbot.ca/m/?m=%s
 Kijiji	kj	http://www.kijiji.ca/b-grand-montreal/%s/k0l80002?sort=priceAsc&ad=offering
