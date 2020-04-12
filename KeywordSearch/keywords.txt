@@ -28,3 +28,4 @@ LimeTorrent	lime	https://www.limetorrents.cc/search/all/%s/seeds/1/
 NyaPantsu	nyap	https://nyaa.pantsu.cat/search?c=3_&order=false&sort=5&q=%s
 Sukebei NyaPantsu	nyaps	https://sukebei.pantsu.cat/search?c=1_1&order=false&sort=5&q=%s
 Library Genesis	libgen	http://gen.lib.rus.ec/search.php?req=%s
+Reddit	r	https://old.reddit.com/r/%s
