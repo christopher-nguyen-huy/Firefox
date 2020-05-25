@@ -1,21 +1,19 @@
-Adblock+
+[Adblock]
+Ublock Origin
 Webmail Ad blocker
-Stylish
-GreaseMonkey
-Youtube Video Replay
-Youtube High Definition
 
-[Security]
-HTTPs everywhere
+[Theming]
+Reddit Enhancement Suite
+Stylus
+
+[Security/Privacy]
+Cookie Autodelete
+HTTPs Everywhere
+Localcdn
+Firefox Multi-account Contrainers
+Old Reddit Redirect
+
+[Other]
+Tab Session Manager
+mozlz4-edit
 NoScript
-BetterPrivacy
-
-[FF]
-Classic theme Restorer
-Session Manager
-
-[PM]
-Adblock Latitude
-
-[Not sure]
-Customizable shortcuts
