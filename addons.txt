@@ -12,8 +12,8 @@ HTTPs Everywhere
 Localcdn
 Firefox Multi-account Contrainers
 Old Reddit Redirect
+Privacy Badger
 
 [Other]
-Tab Session Manager
 mozlz4-edit
 NoScript
