@@ -13,6 +13,7 @@ Localcdn
 Firefox Multi-account Contrainers
 Old Reddit Redirect
 Privacy Badger
+ClearURLs
 
 [Other]
 mozlz4-edit
