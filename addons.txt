@@ -18,4 +18,5 @@ ClearURLs
 [Other]
 mozlz4-edit
 NoScript
-Bypass Paywalls Clean
+Bypass Paywalls Clean # Paywalls
+Universal Bypass # Countdowns
