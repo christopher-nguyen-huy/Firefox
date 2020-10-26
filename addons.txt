@@ -20,3 +20,4 @@ mozlz4-edit
 NoScript
 Bypass Paywalls Clean # Paywalls
 Universal Bypass # Countdowns
+Quora Login Bypass
