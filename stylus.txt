@@ -1,0 +1,6 @@
+github dark: https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/master/github-dark.user.css
+github code wrap: https://raw.githubusercontent.com/StylishThemes/GitHub-code-wrap/master/github-code-wrap.user.css
+wikipedia dark: https://github.com/StylishThemes/Wikipedia-Dark/raw/master/wikipedia-dark.user.css
+wikipedia dark grey text colors: https://raw.githubusercontent.com/StylishThemes/Feature-Override-Styles/master/wikipedia-dark-gray-text-colors.user.css
+stack overflow dark: https://github.com/StylishThemes/StackOverflow-Dark/raw/master/stackoverflow-dark.user.css
+quora dark: https://github.com/StylishThemes/Quora-Dark/raw/master/quora-dark.user.css
