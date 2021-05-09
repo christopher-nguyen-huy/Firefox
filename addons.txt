@@ -21,3 +21,5 @@ NoScript
 Bypass Paywalls Clean # Paywalls
 Universal Bypass # Countdowns
 Quora Login Bypass
+Video Speed Controller
+Disable Javascript
