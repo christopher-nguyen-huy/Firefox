@@ -23,3 +23,15 @@ Universal Bypass # Countdowns
 Quora Login Bypass
 Video Speed Controller
 Disable Javascript
+
+[Test]
+SponsorBlock
+Temporary Containers
+Simple tab Groups
+Tab Session Manager
+EpubReader
+React Developer Tools
+KeePassXC-Browser
+I don't care about cookies
+YouTube NonStop
+Bitwarden
