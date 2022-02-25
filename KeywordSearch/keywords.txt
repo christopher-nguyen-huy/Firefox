@@ -30,4 +30,3 @@ Sukebei NyaPantsu	nyaps	https://sukebei.pantsu.cat/search?c=1_1&order=false&sort
 Library Genesis	libgen	http://gen.lib.rus.ec/search.php?req=%s
 Reddit	r	https://old.reddit.com/r/%s
 BHPhoto	bh	https://www.bhphotovideo.com/c/search?Ntt=%s
-TradingView tv https://www.tradingview.com/chart/?symbol=%s
